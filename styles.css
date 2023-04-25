@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #f1f1f1;
+}
+
+.section {
+  flex-basis: 25%;
+  height: 100%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+}
+
+.section1 {
+  background-color: gray;
+}
+
+.section1 img {
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin: 2.5px 2.5px 5px 20px;
+  border-radius: 27.5px; /* Hacer la imagen circular */
+}
+
+.section1 span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #000;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.section2 {
+  background-color: gray;
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .social-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.section2 .social-bar a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section2 .social-bar a.YouTube {
+  background-image: url("https://tinypic.host/images/2023/04/19/YouTube-B.png");
+}
+
+.section2 .social-bar a.Discord {
+  background-image: url("https://tinypic.host/images/2023/04/19/Discord-B.png");
+}
+
+.section2 .social-bar a.Twitter {
+  background-image: url("https://tinypic.host/images/2023/04/19/Twitter-B.png");
+}
+
+.section2 .social-bar a.Instagram {
+  background-image: url("https://tinypic.host/images/2023/04/19/Instagram-B.png");
+}
+
+.section2 .social-bar a.Twitch {
+  background-image: url("https://tinypic.host/images/2023/04/17/twitch-logo.png");
+}
+
+.section3 {
+  background-color: gray;
+  position: relative;
+}
+
+.section3 span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section3 div {
+  display: inline-block;
+  margin-left: 10px; /* Establece un margen a la izquierda del contenedor */
+}
+
+.section3 img {
+  width: 20px;
+  height: 20px;
+  margin-right: -50px; /* Establece un margen a la derecha de la imagen */
+}
